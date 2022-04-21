@@ -175,14 +175,7 @@ const findShadowRoot = element => {
 };
 
 const noop = () => {};
-/**
- * Trick to restart an element's animation
- *
- * @param {HTMLElement} element
- * @return void
- *
- * @see https://www.charistheo.io/blog/2021/02/restart-a-css-animation-with-javascript/#restarting-a-css-animation
- */
+
 
 
 const reflow = element => {
