@@ -303,15 +303,7 @@
       }
     }, emulatedDuration);
   };
-  /**
-   * Return the previous/next element of a list.
-   *
-   * @param {array} list    The list of elements
-   * @param activeElement   The active element
-   * @param shouldGetNext   Choose to get next or previous element
-   * @param isCycleAllowed
-   * @return {Element|elem} The proper element
-   */
+  
 
 
   const getNextActiveElement = (list, activeElement, shouldGetNext, isCycleAllowed) => {
